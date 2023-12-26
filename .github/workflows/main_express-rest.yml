@@ -32,6 +32,5 @@ jobs:
 
       - name: Start Server on Azure Web App
         run: |
-          cd $HOME/site/wwwroot
           npm install
           npm start
